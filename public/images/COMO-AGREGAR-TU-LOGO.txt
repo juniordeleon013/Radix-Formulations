@@ -1,0 +1,57 @@
+═══════════════════════════════════════════════════════════════
+  CÓMO AGREGAR TU LOGO REAL A LA LANDING PAGE
+═══════════════════════════════════════════════════════════════
+
+📋 PASOS RÁPIDOS:
+
+1. Descarga/Guarda tu logo (el que te mostré) como PNG
+   
+2. Renómbralo exactamente a: radix-logo.png
+   
+3. Guárdalo en esta carpeta:
+   C:\Users\LEGION\Documents\Proyectos\Personal\Radix Web static\public\images\
+   
+4. El archivo final debe estar en:
+   public\images\radix-logo.png
+   
+5. Reinicia el servidor (Ctrl+C y luego npm run dev)
+
+═══════════════════════════════════════════════════════════════
+
+🎨 ESPECIFICACIONES DEL LOGO:
+
+✓ Formato: PNG con fondo transparente
+✓ Dimensiones: 800x200px (o similar proporción 4:1)
+✓ Color: Verde oscuro #0E3F2E sobre fondo transparente
+✓ Peso: Máximo 500KB
+
+═══════════════════════════════════════════════════════════════
+
+📁 ESTRUCTURA DE ARCHIVOS:
+
+public/
+  └── images/
+      ├── radix-logo.svg          ← Logo temporal (SVG)
+      ├── radix-logo-white.svg    ← Logo blanco temporal (SVG)
+      ├── radix-logo.png          ← TU LOGO AQUÍ (PNG) ⭐
+      └── radix-logo-white.png    ← Opcional: versión blanca
+
+═══════════════════════════════════════════════════════════════
+
+💡 NOTA IMPORTANTE:
+
+Actualmente la web usa logos SVG temporales que funcionan perfectamente.
+Cuando agregues tu logo PNG real, el código lo detectará automáticamente.
+
+Si prefieres seguir usando el SVG, no necesitas hacer nada.
+
+═══════════════════════════════════════════════════════════════
+
+❓ ¿PROBLEMAS?
+
+- El logo no aparece → Verifica el nombre exacto: radix-logo.png
+- Logo muy grande → Comprime en https://tinypng.com/
+- Logo borroso → Usa dimensiones más grandes (mínimo 600x150px)
+
+═══════════════════════════════════════════════════════════════
+
